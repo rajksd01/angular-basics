@@ -17,4 +17,13 @@ export class AppComponent {
     this.title = customtitle;
   }
   data = 'K xa kta ho';
+
+  workData = {
+    name: 'Xyz',
+    age: 19,
+    location: 'AAA123Street',
+  };
+  onNameChange(name: string) {
+    this.workData.name = name;
+  }
 }
